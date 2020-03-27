@@ -15,4 +15,5 @@ class Solution(object):
                 i += 2
             else:
                 num += roman[s[i]]
+                i += 1
         return num
